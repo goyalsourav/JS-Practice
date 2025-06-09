@@ -1,4 +1,4 @@
-console.log('welcome');
+//console.log('welcome');
 
 // functions like setTimeout are example of callback function which allow asynchronous things in JS even though JS is synchronous.
 
@@ -11,4 +11,14 @@ console.log('welcome');
 // attachEventListners();
 
 //15
+// Event Loop
+console.log("Start");
+
+setTimeout(function cb() {
+    console.log("callBack");
+}, 5000);
+
+console.log("End");
+
+//Event Loop and Callback Queue
 
